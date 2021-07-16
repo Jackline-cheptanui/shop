@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SUPPLY MANAGEMENT"
+        android:textColor="@color/black" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="product"
+            android:gravity="center" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed4"
+        android:ems="10" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed3"
+        android:ems="10" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed7"
+        android:ems="10" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total money"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textpayment"
+        android:layout_margin="10sp"
+        android:textColor="@color/white"
+        android:enabled="false"
+        android:ems="10" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balance money"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textbalance"
+        android:layout_margin="10sp"
+        android:textColor="@color/white"
+        android:enabled="false"
+        android:ems="10" />
+
+
+    <LinearLayout
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/tb2"
+        android:stretchColumns="*">
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tb4"/>
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_height="wrap_content"
+                android:layout_weight="wrap_content"
+                android:text="product"
+                />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_height="wrap_content"
+            android:layout_weight="wrap_content"
+            android:text="Quantly"
+            />
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_height="wrap_content"
+            android:layout_weight="wrap_content"
+            android:text="price"
+            />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_height="wrap_content"
+            android:layout_weight="wrap_content"
+            android:text="Total money"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="wrap_content"
+            android:text="Total balance" />
+
+
+
+</TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
